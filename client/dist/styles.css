@@ -1,11 +1,22 @@
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+  background-color: #FDF5EB;
+}
+
 .title {
-  text-align: center;
+  font-size: 40px;
   color: black;
 }
 
 .navBar {
   width: 100%;
   height: 50px;
-  margin-top: 0;
   background-color: antiquewhite;
+}
+
+.services, .contact {
+  font-size: 25px;
 }
