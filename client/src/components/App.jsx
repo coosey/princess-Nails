@@ -1,10 +1,10 @@
 import React from "react";
-import "../../dist/styles.css";
+import Navbar from "./Navbar.jsx";
 
 const App = () => {
   return (
     <div>
-      <h1 className="title">Princess Nails</h1>
+      <Navbar />
     </div>
   )
 }
