@@ -7,7 +7,7 @@ html, body, h1 {
   position: static;
 }
 
-.title {
+.title-link {
   font-size: 40px;
   color: black;
 }
