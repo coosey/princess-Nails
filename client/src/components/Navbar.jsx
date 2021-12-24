@@ -1,11 +1,14 @@
 import React from "react";
 import { Routes, Route, Link, useNavigate } from "react-router-dom";
 import Stack from "@mui/material/Stack";
+import Services from "./Services.jsx";
 import "../../dist/styles.css";
 
 const Navbar = () => {
   const navigate = useNavigate();
+
   const homeClick = e => navigate("/");
+
 
   return (
     <div className="navBar">
