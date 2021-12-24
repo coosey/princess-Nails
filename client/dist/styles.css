@@ -4,7 +4,7 @@ html, body, h1 {
   height: 100%;
   overflow: auto;
   background-color: #FDF5EB;
-  position: relative;
+  position: static;
 }
 
 .title {
@@ -19,12 +19,12 @@ html, body, h1 {
 }
 
 .services, .contact {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .about {
   position: absolute;
-  left: 20%;
+  left: 22%;
   top: 65%;
   height: 200px;
   width: 800px;
@@ -32,5 +32,6 @@ html, body, h1 {
 }
 
 .about-Header {
-  font-size: 20px;
+  font-size: 28px;
+  margin: 5px;
 }
