@@ -47,3 +47,21 @@ html, body, h1 {
   font-size: 28px;
   margin: 5px;
 }
+
+.slick-slide img {
+  margin: auto;
+}
+
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+
+.slick-container {
+  margin: auto;
+  padding: 70px;
+}
