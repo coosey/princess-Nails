@@ -6,12 +6,12 @@ const Carousel = () => {
     className: "center",
     centerMode: true,
     centerPadding: "10px",
+    dots: true,
     infinite: true,
-    speed: 500,
+    speed: 700,
     slidesToShow: 3,
     slidesToScroll: 1,
     swipeToSlide: true,
-
   };
 
   return (
