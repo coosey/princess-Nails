@@ -13,25 +13,25 @@ const Carousel = () => {
   };
 
   return (
-    <div>
+    <div className="slick">
       <Slider {...settings}>
         <div>
-          <h3>1</h3>
+          <img src="http://placekitten.com/g/400/200" />
         </div>
         <div>
-          <h3>2</h3>
+          <img src="http://placekitten.com/g/400/200" />
         </div>
         <div>
-          <h3>3</h3>
+          <img src="http://placekitten.com/g/400/200" />
         </div>
         <div>
-          <h3>4</h3>
+          <img src="http://placekitten.com/g/400/200" />
         </div>
         <div>
-          <h3>5</h3>
+          <img src="http://placekitten.com/g/400/200" />
         </div>
         <div>
-          <h3>6</h3>
+          <img src="http://placekitten.com/g/400/200" />
         </div>
       </Slider>
     </div>
