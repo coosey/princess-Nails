@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./Home.jsx";
+import Home from "./Links/Home.jsx";
 import NavBar from "./NavBar.jsx";
 import Contact from "./Links/Contact.jsx";
 import Services from "./Links/Services.jsx";
