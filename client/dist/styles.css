@@ -7,15 +7,20 @@ html, body, h1 {
   position: static;
 }
 
-.title-link {
-  font-size: 40px;
-  color: black;
-}
-
 .navBar {
   width: 100%;
   height: 50px;
   background-color: antiquewhite;
+  text-align: center;
+}
+
+.title-link {
+  font-size: 40px;
+}
+
+.nav-link, .title-link {
+  text-decoration: none;
+  color: black;
 }
 
 .services, .contact {
