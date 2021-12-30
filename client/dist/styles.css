@@ -44,8 +44,13 @@ html, body, h1 {
 }
 
 .about-Header {
-  font-size: 28px;
-  margin: 5px;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.about-Body {
+  font-size: 20px;
+  margin: 10px;
 }
 
 .slick-slider {
