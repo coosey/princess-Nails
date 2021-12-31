@@ -8,10 +8,10 @@ const Socials = () => {
       <h3 className="social-header">Follow our Socials!</h3>
       <div className="social-body">
         <a href="https://www.instagram.com/princessnails_murrieta/" className="social-IG">
-          <FontAwesomeIcon icon={faInstagram} size="2x" />
+          <FontAwesomeIcon icon={faInstagram} size="3x" />
         </a>
         <a href="https://www.yelp.com/biz/princess-nails-murrieta-2" className="social-Yelp">
-          <FontAwesomeIcon icon={faYelp} size="2x" />
+          <FontAwesomeIcon icon={faYelp} size="3x" />
         </a>
       </div>
     </div>
