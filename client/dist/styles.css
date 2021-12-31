@@ -34,25 +34,36 @@ html, body, h1 {
   font-size: 30px;
 }
 
-.about {
-  position: absolute;
-  left: 22%;
-  top: 65%;
-  height: 200px;
-  width: 800px;
+.about-container {
+  /* position: absolute; */
+  /* left: 22%;
+  top: 55%; */
+  margin: 15px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: white;
+  /* height: 200px;
+  width: 800px;
+  background-color: white; */
 }
 
 .about-Header {
-  font-size: 30px;
   margin: 10px;
+  font-size: 30px;
 }
 
 .about-Body {
-  font-size: 20px;
   margin: 10px;
+  font-size: 20px;
 }
 
+.social-container {
+  display: flex;
+  justify-content: center;
+}
+/* slick */
 .slick-slider {
   height: 200px;
 }
