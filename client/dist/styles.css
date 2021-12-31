@@ -46,7 +46,7 @@ html, body, h1 {
 .about-Header {
   text-align: center;
   margin: 10px;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .about-Body {
@@ -55,8 +55,22 @@ html, body, h1 {
 }
 
 .social-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.social-header {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-IG, .social-Yelp {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 45px;
+  margin: 10px;
 }
 
 /* slick */
