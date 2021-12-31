@@ -18,7 +18,7 @@ html, body, h1 {
 }
 
 .title-link {
-  font-size: 45px;
+  font-size: 50px;
 }
 
 .nav-link {
@@ -35,34 +35,30 @@ html, body, h1 {
 }
 
 .about-container {
-  /* position: absolute; */
-  /* left: 22%;
-  top: 55%; */
-  margin: 15px;
+  margin: 30px 140px 30px 140px;
   font-size: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: white;
-  /* height: 200px;
-  width: 800px;
-  background-color: white; */
 }
 
 .about-Header {
+  text-align: center;
   margin: 10px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .about-Body {
   margin: 10px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .social-container {
   display: flex;
   justify-content: center;
 }
+
 /* slick */
 .slick-slider {
   height: 200px;
