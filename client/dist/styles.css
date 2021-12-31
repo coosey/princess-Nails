@@ -45,6 +45,9 @@ html, body, h1 {
   flex-direction: column;
   justify-content: center;
   background-color: white;
+  border: 3px solid black;
+  border-color: #F5DEB3;
+  border-radius: 20px;
 }
 
 .about-Header {
@@ -80,7 +83,8 @@ html, body, h1 {
   justify-content: center;
   align-items: center;
   width: 45px;
-  margin: 10px;
+  margin: 15px;
+  color: black;
 }
 
 /**** SLICK SECTION ****/
