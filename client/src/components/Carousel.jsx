@@ -15,7 +15,7 @@ const Carousel = () => {
 
   return (
     <div className="slick-container">
-      <Slider className="slick-slider" {...settings}>
+      <Slider {...settings}>
         <div>
           <img className="slick-img" src="http://placekitten.com/g/400/200" />
         </div>

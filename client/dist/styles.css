@@ -57,7 +57,7 @@ html, body, h1 {
 }
 
 .about-Body {
-  margin: 10px;
+  margin: 15px;
   font-size: 25px;
 }
 
@@ -76,7 +76,7 @@ html, body, h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 10px 20px 10px;
+  margin: 10px 10px 10px 10px;
 }
 
 .social-IG, .social-Yelp {
@@ -94,8 +94,6 @@ html, body, h1 {
 }
 
 .slick-slide img {
-  /* margin: auto;
-  height: 200px; */
   width: -webkit-fill-available;
 }
 
@@ -112,13 +110,11 @@ html, body, h1 {
 .slick-container {
   margin: 50px;
   padding: 50px;
-  /* top: 50%;
-  left: 50%; */
 }
 
-/* .slick-dots {
-  width: 100%;
-  margin: 0;
-  list-style: none;
+/**** CONTACT SECTION ****/
+
+.contact-title {
   text-align: center;
-} */
+  margin: 10px;
+}
