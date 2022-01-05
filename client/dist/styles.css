@@ -89,10 +89,6 @@ html, body, h1 {
 
 /**** SLICK SECTION ****/
 
-.slick-slider {
-  height: 200px;
-}
-
 .slick-img {
   margin: 5px;
 }
@@ -120,9 +116,9 @@ html, body, h1 {
   left: 50%; */
 }
 
-.slick-dots {
+/* .slick-dots {
   width: 100%;
   margin: 0;
   list-style: none;
   text-align: center;
-}
+} */

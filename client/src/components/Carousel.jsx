@@ -6,7 +6,6 @@ const Carousel = () => {
     className: "center",
     centerMode: true,
     centerPadding: "5px",
-    dots: true,
     infinite: true,
     speed: 700,
     slidesToShow: 3,
