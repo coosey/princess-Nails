@@ -114,7 +114,13 @@ html, body, h1 {
 
 /**** CONTACT SECTION ****/
 
-.contact-title {
+.contact {
   text-align: center;
-  margin: 10px;
+  margin: 20px;
 }
+
+.contact-info {
+  font-size: 25px;
+  margin: 15px;
+}
+
