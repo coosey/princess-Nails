@@ -5,7 +5,7 @@ const Carousel = () => {
   const settings = {
     className: "center",
     centerMode: true,
-    centerPadding: "10px",
+    centerPadding: "5px",
     dots: true,
     infinite: true,
     speed: 700,
@@ -18,31 +18,31 @@ const Carousel = () => {
     <div className="slick-container">
       <Slider className="slick-slider" {...settings}>
         <div>
-          <img src="http://placekitten.com/g/400/200" />
+          <img className="slick-img" src="http://placekitten.com/g/400/200" />
         </div>
         <div>
-          <img src="http://placekitten.com/g/400/200" />
+          <img className="slick-img" src="http://placekitten.com/g/400/200" />
         </div>
         <div>
-          <img src="http://placekitten.com/g/400/200" />
+          <img className="slick-img" src="http://placekitten.com/g/400/200" />
         </div>
         <div>
-          <img src="http://placekitten.com/g/400/200" />
+          <img className="slick-img" src="http://placekitten.com/g/400/200" />
         </div>
         <div>
-          <img src="http://placekitten.com/g/400/200" />
+          <img className="slick-img" src="http://placekitten.com/g/400/200" />
         </div>
         <div>
-          <img src="http://placekitten.com/g/400/200" />
+          <img className="slick-img" src="http://placekitten.com/g/400/200" />
         </div>
         <div>
-          <img src="http://placekitten.com/g/400/200" />
+          <img className="slick-img" src="http://placekitten.com/g/400/200" />
         </div>
         <div>
-          <img src="http://placekitten.com/g/400/200" />
+          <img className="slick-img" src="http://placekitten.com/g/400/200" />
         </div>
         <div>
-          <img src="http://placekitten.com/g/400/200" />
+          <img className="slick-img" src="http://placekitten.com/g/400/200" />
         </div>
       </Slider>
     </div>
