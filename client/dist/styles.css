@@ -115,12 +115,30 @@ html, body, h1 {
 /**** CONTACT SECTION ****/
 
 .contact {
+  display: inline-flex;
+  /* flex-direction: row;
+  justify-content: space-evenly; */
+  flex-wrap: wrap;
+  gap: 70px;
   text-align: center;
   margin: 20px;
 }
 
+.contact-location {
+  margin: 10px;
+}
+
 .contact-info {
-  font-size: 25px;
+  font-size: 20px;
+  margin: 10px;
+  text-align: left;
+}
+
+.contact-map {
   margin: 15px;
 }
 
+.contact-title {
+  margin: 10px;
+  text-align: left;
+}
