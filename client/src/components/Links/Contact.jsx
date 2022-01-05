@@ -1,6 +1,27 @@
 import React from "react";
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
 
 const Contact = () => {
+  const createData = (day, time) => {
+    return { day, time }
+  }
+
+  const rows = [
+    createData('Monday', "9:30 A.M - 7:30 P.M"),
+    createData('Tuesday', "9:30 A.M - 7:30 P.M"),
+    createData('Wednesday', "9:30 A.M - 7:30 P.M"),
+    createData('Thursday', "9:30 A.M - 7:30 P.M"),
+    createData('Friday', "9:30 A.M - 7:30 P.M"),
+    createData('Saturday', "9:30 A.M - 7:30 P.M"),
+    createData('Sunday', "Closed"),
+  ]
+
   return (
     <div className="contact">
       <div>
@@ -21,6 +42,20 @@ const Contact = () => {
         <h4 className="contact-title">Phone</h4>
           <div className="contact-info">(951) 698-7191</div>
         <h4 className="contact-title">Business Hours</h4>
+          <TableContainer component={Paper}>
+            <Table size="small" aria-label="simple table">
+              <TableBody>
+                {rows.map(row => (
+                  <TableRow
+                    key={row.day}
+                  >
+                    <TableCell component="th" scope="row">{row.day}</TableCell>
+                    <TableCell>{row.time}</TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </TableContainer>
       </div>
     </div>
   )
