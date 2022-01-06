@@ -6,6 +6,8 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import CallSharpIcon from '@mui/icons-material/CallSharp';
 
 const Contact = () => {
   const createData = (day, time) => {
@@ -39,9 +41,15 @@ const Contact = () => {
         </div>
       </div>
       <div className="information">
-        <h4 className="contact-title">Address</h4>
+        <h4 className="contact-title">
+          <LocationOnIcon />
+          Address
+        </h4>
           <div className="contact-info">39872 Los Alamos Rd Ste A3B Murrieta, CA 92562</div>
-        <h4 className="contact-title">Phone</h4>
+        <h4 className="contact-title">
+          <CallSharpIcon />
+          Phone
+        </h4>
           <div className="contact-info">(951) 698-7191</div>
         <h4 className="contact-title">Business Hours</h4>
           <TableContainer component={Paper}>
