@@ -115,17 +115,11 @@ html, body, h1 {
 /**** CONTACT SECTION ****/
 
 .contact {
-  display: inline-flex;
-  /* flex-direction: row;
-  justify-content: space-evenly; */
-  flex-wrap: wrap;
-  gap: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
-  margin: 20px;
-}
-
-.contact-location {
-  margin: 10px;
+  margin: 30px;
 }
 
 .contact-info {
@@ -134,8 +128,32 @@ html, body, h1 {
   text-align: left;
 }
 
-.contact-map {
-  margin: 15px;
+.information, .contact-location {
+  margin: 20px;
+}
+
+.google-map {
+  position: relative;
+  padding-bottom: 75%;
+  height: 100px;
+  width: 600px;
+  overflow: hidden;
+}
+
+.google-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.contact-location {
+  margin-right: 60px;
+}
+
+.contact-location-title {
+  margin: 10px;
 }
 
 .contact-title {
