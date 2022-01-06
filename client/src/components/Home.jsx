@@ -1,7 +1,7 @@
 import React from "react";
 import About from "./About.jsx";
-import Carousel from "../Carousel.jsx";
-import Socials from "./Socials.jsx";
+import Carousel from "./Carousel.jsx";
+import Socials from "./Links/Socials.jsx";
 
 const Home = () => {
   return (
