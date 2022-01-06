@@ -44,16 +44,15 @@ html, body, h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
+  /* background-color: white;
   border: 3px solid black;
   border-color: #F5DEB3;
-  border-radius: 20px;
+  border-radius: 20px; */
 }
 
 .about-Header {
   text-align: center;
-  margin: 10px;
-  font-size: 40px;
+  margin: 5px;
 }
 
 .about-Body {
