@@ -166,7 +166,7 @@ html, body, h1 {
 .services {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 60px auto 80px;
+  grid-template-rows: 100px 300px 200px;
   margin: 30px;
 }
 
@@ -177,7 +177,7 @@ html, body, h1 {
   place-self: center;
 }
 
-.fullset-fill {
+.fullset-fill, .wax {
   justify-self: center;
   width: 450px;
   margin: 20px;
@@ -185,7 +185,12 @@ html, body, h1 {
 
 .fullset-img {
   justify-self: center;
-  place-self: self-start;
+  margin: 50px;
+  width: 50%;
+}
+
+.wax {
+  grid-row: 4/4;
+  grid-column: 2/2;
   margin: 20px;
-  width: 55%;
 }

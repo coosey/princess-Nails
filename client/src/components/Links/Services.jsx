@@ -18,17 +18,36 @@ const Services = () => {
     return { name, price }
   }
 
+  const waxData = (name, price) => {
+    return { name, price }
+  }
+
   const fullSets = [
-    fullSetData('Regular', 35),
-    fullSetData('White tips w/ gel', 40),
-    fullSetData('Pink & white', 50),
-    fullSetData('Powder color', 45)
+    fullSetData('REGULAR', 35),
+    fullSetData('WHITE TIPS W/ GEL', 40),
+    fullSetData('PINK & WHITE', 50),
+    fullSetData('POWDER COLOR', 45)
   ]
 
   const fills = [
-    fillData("Regular", 30),
-    fillData("Pink", 35),
-    fillData("Pink & white", 45)
+    fillData('REGULAR', 30),
+    fillData('PINK', 35),
+    fillData('PINK & WHITE', 45)
+  ]
+
+  const wax = [
+    waxData('UPPER LIP', 7),
+    waxData('CHIN'),
+    waxData('EYEBROWS'),
+    waxData('UNDERARMS'),
+    waxData('HALF ARMS'),
+    waxData('FULL ARMS'),
+    waxData('HALF LEGS (UPPER/LOWER)'),
+    waxData('FULL LEGS'),
+    waxData('CHEST'),
+    waxData('BACK'),
+    waxData('BIKINI'),
+    waxData('BRAZILIAN')
   ]
 
   return (
@@ -73,6 +92,21 @@ const Services = () => {
                   </Table>
                 </TableContainer>
             </div>
+          </div>
+          <div className="wax">
+          <Typography variant="h5" sx={{ textAlign: "center", margin: "15px" }}>Fills</Typography>
+                <TableContainer component={Paper}>
+                  <Table size="medium" aria-label="simple-table">
+                    <TableBody>
+                      {fills.map(fill => (
+                        <TableRow key={fill.name}>
+                          <TableCell component="th" scope="row">{fill.name}</TableCell>
+                          <TableCell>{fill.price}</TableCell>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                </TableContainer>
           </div>
       </div>
   )
