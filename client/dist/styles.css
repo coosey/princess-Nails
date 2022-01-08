@@ -164,15 +164,28 @@ html, body, h1 {
 /**** Services ****/
 
 .services {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 60px auto 80px;
   margin: 30px;
 }
 
 .services-title {
   margin: 10px;
   font-family: Didot, serif;
+  text-align: center;
+  place-self: center;
 }
 
-.services-fullset {
-  width: 300px;
-  margin: 30px;
+.fullset-fill {
+  justify-self: center;
+  width: 450px;
+  margin: 20px;
+}
+
+.fullset-img {
+  justify-self: center;
+  place-self: self-start;
+  margin: 20px;
+  width: 55%;
 }
