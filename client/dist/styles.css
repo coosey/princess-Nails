@@ -7,7 +7,7 @@ html, body, h1 {
   position: static;
 }
 
-/**** NAVBAR SECTION ****/
+/**** NAVBAR ****/
 
 .nav-container {
   width: 100%;
@@ -21,10 +21,12 @@ html, body, h1 {
 
 .title-link {
   font-size: 50px;
+  font-family: Didot, serif;
 }
 
 .nav-link {
   font-size: 25px;
+  font-family: Didot, serif;
 }
 
 .nav-link, .title-link {
@@ -36,7 +38,7 @@ html, body, h1 {
   font-size: 30px;
 }
 
-/**** HOME SECTION ****/
+/**** HOME ****/
 
 .about-container {
   margin: 30px 140px 30px 140px;
@@ -86,7 +88,7 @@ html, body, h1 {
   color: black;
 }
 
-/**** SLICK SECTION ****/
+/**** SLICK ****/
 
 .slick-img {
   margin: 5px;
@@ -110,7 +112,7 @@ html, body, h1 {
   margin: 200px 50px 50px 50px;
 }
 
-/**** CONTACT SECTION ****/
+/**** CONTACT ****/
 
 .contact {
   display: flex;
@@ -157,4 +159,21 @@ html, body, h1 {
 .contact-title {
   margin: 10px;
   text-align: left;
+}
+
+/**** Services ****/
+
+.services {
+  margin: 30px;
+}
+
+.services-title {
+  margin: 10px;
+  font-family: Didot, serif;
+}
+
+.services-container {
+  width: 200px;
+  height: 400px;
+  background-color: #FFE7B4;
 }
