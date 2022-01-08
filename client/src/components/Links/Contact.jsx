@@ -55,9 +55,7 @@ const Contact = () => {
             <Table size="small" aria-label="simple table">
               <TableBody>
                 {rows.map(row => (
-                  <TableRow
-                    key={row.day}
-                  >
+                  <TableRow key={row.day}>
                     <TableCell component="th" scope="row">{row.day}</TableCell>
                     <TableCell>{row.time}</TableCell>
                   </TableRow>

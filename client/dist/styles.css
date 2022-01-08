@@ -172,8 +172,7 @@ html, body, h1 {
   font-family: Didot, serif;
 }
 
-.services-container {
-  width: 200px;
-  height: 400px;
-  background-color: #FFE7B4;
+.services-fullset {
+  width: 300px;
+  margin: 30px;
 }
