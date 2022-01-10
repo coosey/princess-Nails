@@ -165,18 +165,24 @@ html, body, h1 {
 
 .services {
   display: grid;
-  justify-content: space-evenly;
-  margin: 50px;
+  grid-template-areas:
+    "title img"
+    "fullset wax"
+    "fills ."
+    ". ."
+  ;
+  margin: 55px;
 }
 
 .services-title {
+  text-align: center;
   grid-area: title;
   font-family: Didot, serif;
-
+  margin: 20px;
 }
 
-.fullset-fill, .wax {
-
+.fullset-fill {
+  margin: 20px;
 }
 
 .services-fullset {
@@ -190,9 +196,19 @@ html, body, h1 {
 
 .fullset-img {
   grid-area: img;
-  width: 30%;
+  margin: 30px;
+  align-self: center;
+  width: 360px;
+}
+
+.img-wax {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  width: 600px;
 }
 
 .wax {
   grid-area: wax;
+  margin: 20px;
 }

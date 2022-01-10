@@ -35,19 +35,19 @@ const Services = () => {
     fillData('PINK & WHITE', 45)
   ]
 
-  const wax = [
+  const waxes = [
     waxData('UPPER LIP', 7),
-    waxData('CHIN'),
-    waxData('EYEBROWS'),
-    waxData('UNDERARMS'),
-    waxData('HALF ARMS'),
-    waxData('FULL ARMS'),
-    waxData('HALF LEGS (UPPER/LOWER)'),
-    waxData('FULL LEGS'),
-    waxData('CHEST'),
-    waxData('BACK'),
-    waxData('BIKINI'),
-    waxData('BRAZILIAN')
+    waxData('CHIN', 10),
+    waxData('EYEBROWS', 12),
+    waxData('UNDERARMS', 17),
+    waxData('HALF ARMS', 30),
+    waxData('FULL ARMS', 40),
+    waxData('HALF LEGS (UPPER/LOWER)', 35),
+    waxData('FULL LEGS', 50),
+    waxData('CHEST', 35),
+    waxData('BACK', 40),
+    waxData('BIKINI', 30),
+    waxData('BRAZILIAN', 50)
   ]
 
   return (
@@ -94,28 +94,30 @@ const Services = () => {
               </TableContainer>
           </div>
         </div>
-        <div className="fullset-img">
-          <Card>
-            <CardMedia
-              component="img"
-              image="./images/services-nail.jpg"
-            />
-          </Card>
-        </div>
-        <div className="wax">
-        <Typography variant="h5" sx={{ textAlign: "center", margin: "15px" }}>Fills</Typography>
-              <TableContainer component={Paper}>
-                <Table size="medium" aria-label="simple-table">
-                  <TableBody>
-                    {fills.map(fill => (
-                      <TableRow key={fill.name}>
-                        <TableCell component="th" scope="row">{fill.name}</TableCell>
-                        <TableCell>{fill.price}</TableCell>
-                      </TableRow>
-                    ))}
-                  </TableBody>
-                </Table>
-              </TableContainer>
+        <div className="img-wax">
+          <div className="fullset-img">
+            <Card>
+              <CardMedia
+                component="img"
+                image="./images/services-nail.jpg"
+              />
+            </Card>
+          </div>
+          <div className="wax">
+          <Typography variant="h5" sx={{ textAlign: "center", margin: "15px" }}>Wax</Typography>
+                <TableContainer component={Paper}>
+                  <Table size="medium" aria-label="simple-table">
+                    <TableBody>
+                      {waxes.map(wax => (
+                        <TableRow key={wax.name}>
+                          <TableCell component="th" scope="row">{wax.name}</TableCell>
+                          <TableCell>{wax.price}</TableCell>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                </TableContainer>
+          </div>
         </div>
       </div>
   )
