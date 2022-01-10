@@ -165,32 +165,34 @@ html, body, h1 {
 
 .services {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 100px 300px 200px;
-  margin: 30px;
+  justify-content: space-evenly;
+  margin: 50px;
 }
 
 .services-title {
-  margin: 10px;
+  grid-area: title;
   font-family: Didot, serif;
-  text-align: center;
-  place-self: center;
+
 }
 
 .fullset-fill, .wax {
-  justify-self: center;
-  width: 450px;
-  margin: 20px;
+
 }
 
+.services-fullset {
+  grid-area: fullset;
+}
+
+.services-fill {
+  grid-area: fills;
+}
+
+
 .fullset-img {
-  justify-self: center;
-  margin: 50px;
-  width: 50%;
+  grid-area: img;
+  width: 30%;
 }
 
 .wax {
-  grid-row: 4/4;
-  grid-column: 2/2;
-  margin: 20px;
+  grid-area: wax;
 }

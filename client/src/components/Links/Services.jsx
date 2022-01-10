@@ -52,62 +52,71 @@ const Services = () => {
 
   return (
       <div className="services">
+        {/* <h4 className="services-title">Come get professionally polished</h4> */}
+        {/* <div className="fullset-img">
+          <Card>
+            <CardMedia
+              component="img"
+              image="./images/services-nail.jpg"
+            />
+          </Card>
+        </div> */}
+        <div className="fullset-fill">
           <h4 className="services-title">Come get professionally polished</h4>
-          <div className="fullset-img">
-            <Card>
-              <CardMedia
-                component="img"
-                image="./images/services-nail.jpg"
-              />
-            </Card>
+          <div className="services-fullset">
+            <Typography variant="h5" sx={{ textAlign: "center", margin: "15px" }}>Full Set</Typography>
+            <TableContainer component={Paper}>
+              <Table size="medium" aria-label="simple-table">
+                <TableBody>
+                  {fullSets.map(set => (
+                    <TableRow key={set.name}>
+                      <TableCell component="th" scope="row">{set.name}</TableCell>
+                      <TableCell>{set.price}</TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </TableContainer>
           </div>
-          <div className="fullset-fill">
-            <div className="services-fullset">
-              <Typography variant="h5" sx={{ textAlign: "center", margin: "15px" }}>Full Set</Typography>
+          <div className="services-fill">
+            <Typography variant="h5" sx={{ textAlign: "center", margin: "15px" }}>Fills</Typography>
               <TableContainer component={Paper}>
                 <Table size="medium" aria-label="simple-table">
                   <TableBody>
-                    {fullSets.map(set => (
-                      <TableRow key={set.name}>
-                        <TableCell component="th" scope="row">{set.name}</TableCell>
-                        <TableCell>{set.price}</TableCell>
+                    {fills.map(fill => (
+                      <TableRow key={fill.name}>
+                        <TableCell component="th" scope="row">{fill.name}</TableCell>
+                        <TableCell>{fill.price}</TableCell>
                       </TableRow>
                     ))}
                   </TableBody>
                 </Table>
               </TableContainer>
-            </div>
-            <div className="services-fill">
-              <Typography variant="h5" sx={{ textAlign: "center", margin: "15px" }}>Fills</Typography>
-                <TableContainer component={Paper}>
-                  <Table size="medium" aria-label="simple-table">
-                    <TableBody>
-                      {fills.map(fill => (
-                        <TableRow key={fill.name}>
-                          <TableCell component="th" scope="row">{fill.name}</TableCell>
-                          <TableCell>{fill.price}</TableCell>
-                        </TableRow>
-                      ))}
-                    </TableBody>
-                  </Table>
-                </TableContainer>
-            </div>
           </div>
-          <div className="wax">
-          <Typography variant="h5" sx={{ textAlign: "center", margin: "15px" }}>Fills</Typography>
-                <TableContainer component={Paper}>
-                  <Table size="medium" aria-label="simple-table">
-                    <TableBody>
-                      {fills.map(fill => (
-                        <TableRow key={fill.name}>
-                          <TableCell component="th" scope="row">{fill.name}</TableCell>
-                          <TableCell>{fill.price}</TableCell>
-                        </TableRow>
-                      ))}
-                    </TableBody>
-                  </Table>
-                </TableContainer>
-          </div>
+        </div>
+        <div className="fullset-img">
+          <Card>
+            <CardMedia
+              component="img"
+              image="./images/services-nail.jpg"
+            />
+          </Card>
+        </div>
+        <div className="wax">
+        <Typography variant="h5" sx={{ textAlign: "center", margin: "15px" }}>Fills</Typography>
+              <TableContainer component={Paper}>
+                <Table size="medium" aria-label="simple-table">
+                  <TableBody>
+                    {fills.map(fill => (
+                      <TableRow key={fill.name}>
+                        <TableCell component="th" scope="row">{fill.name}</TableCell>
+                        <TableCell>{fill.price}</TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              </TableContainer>
+        </div>
       </div>
   )
 }
