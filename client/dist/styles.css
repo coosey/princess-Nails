@@ -5,6 +5,7 @@ html, body, h1 {
   overflow: auto;
   background-color: #FDF5EB;
   position: static;
+  font-family: Didot, serif;
 }
 
 /**** NAVBAR ****/
@@ -21,12 +22,12 @@ html, body, h1 {
 
 .title-link {
   font-size: 50px;
-  font-family: Didot, serif;
+  /* font-family: Didot, serif; */
 }
 
 .nav-link {
   font-size: 25px;
-  font-family: Didot, serif;
+  /* font-family: Didot, serif; */
 }
 
 .nav-link, .title-link {
@@ -118,6 +119,7 @@ html, body, h1 {
   display: grid;
   /* flex-direction: row; */
   justify-content: center;
+  /* font-family: Didot, serif; */
   text-align: center;
   margin: 10px;
 }
@@ -128,7 +130,7 @@ html, body, h1 {
   text-align: center;
 }
 
-.information, .contact-location {
+.information, .contact-location-title, .contact-locaton {
   margin: 20px;
 }
 
@@ -148,14 +150,6 @@ html, body, h1 {
   height: 100% !important;
 }
 
-.contact-location {
-  margin-right: 60px;
-}
-
-.contact-location-title {
-  margin: 20px;
-}
-
 .contact-title {
   margin: 20px;
   text-align: center;
@@ -164,6 +158,11 @@ html, body, h1 {
 .table {
   width: 450px;
   margin: auto;
+}
+
+.contact-social {
+  font-size: 15px;
+  margin: 80px auto 5px auto;
 }
 
 /**** Services ****/
@@ -175,6 +174,8 @@ html, body, h1 {
     "fullset wax"
     "fills wax"
     "img1 ."
+    "kid img3"
+    "manicure ."
   ;
   margin: 50px 100px 50px 100px;
   justify-content: center;
@@ -183,14 +184,14 @@ html, body, h1 {
 .services-title {
   text-align: center;
   grid-area: title;
-  font-family: Didot, serif;
+  /* font-family: Didot, serif; */
   margin: 20px;
 }
 
 .services-quote {
   text-align: center;
-  font-family: Didot, serif;
-  margin: 80px 30px 30px 30px;
+  /* font-family: Didot, serif; */
+  margin: 45px 30px 30px 30px;
 }
 
 .fullset-fill {
@@ -219,9 +220,15 @@ html, body, h1 {
 .img-2 {
   grid-area: img2;
   margin: 30px;
-  /* display: flow-root; */
+  align-self: flex-start;
+  width: 390px;
+}
+
+.img-3 {
+  grid-area: img3;
+  margin: 50px;
   align-self: center;
-  width: 355px;
+  width: 300px;
 }
 
 .img-wax {
@@ -233,5 +240,15 @@ html, body, h1 {
 
 .wax {
   grid-area: wax;
+  margin: 20px;
+}
+
+.kids {
+  grid-area: kid;
+  margin: 20px;
+}
+
+.manicure {
+  grid-area: manicure;
   margin: 20px;
 }

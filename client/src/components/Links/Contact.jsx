@@ -1,4 +1,5 @@
 import React from "react";
+import Socials from "./Socials.jsx";
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -71,6 +72,9 @@ const Contact = () => {
               </Table>
             </TableContainer>
           </div>
+      </div>
+      <div className="contact-social">
+        <Socials />
       </div>
     </div>
   )
