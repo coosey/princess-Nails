@@ -10,6 +10,7 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 
 const Services = () => {
+
   const fullSetData = (name, price) => {
     return { name, price }
   }
@@ -27,6 +28,10 @@ const Services = () => {
   }
 
   const manicureData = (name, price) => {
+    return { name, price }
+  }
+
+  const pedicureData =(name, price) => {
     return { name, price }
   }
 
@@ -69,6 +74,15 @@ const Services = () => {
     manicureData("HOT OIL MANICURE MASSAGE", 23),
     manicureData("GEL MANICURE", 35),
     manicureData("FRENCH GEL MANICURE", 37)
+  ]
+
+  const pedicures = [
+    pedicureData("BASIC PEDICURE", 28),
+    pedicureData("SEA SALT PEDICURE", 33),
+    pedicureData("REFRESHING PEDICURE", 33),
+    pedicureData("SPA PEDICURE", 36),
+    pedicureData("RELAXING PEDICURE", 38),
+    pedicureData("DELUXE PEDICURE", 55)
   ]
 
   return (
@@ -144,6 +158,21 @@ const Services = () => {
                 </Table>
               </TableContainer>
           </div>
+          <div className="pedicure">
+            <Typography variant="h5" sx={{ textAlign: "center", margin: "15px" }}>Pedicure</Typography>
+              <TableContainer component={Paper}>
+                <Table size="medium" aria-label="simple-table">
+                  <TableBody>
+                    {pedicures.map(pedicure => (
+                      <TableRow key={pedicure.name}>
+                        <TableCell component="th" scope="row">{pedicure.name}</TableCell>
+                        <TableCell>{pedicure.price}</TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              </TableContainer>
+          </div>
         </div>
         <div className="img-2">
           <div className="fullset-img">
@@ -169,13 +198,23 @@ const Services = () => {
                 </Table>
               </TableContainer>
           </div>
-          <div className="img-3">
-            <Card>
-              <CardMedia
-                component="img"
-                image="./images/services-nail3.jpg"
-              />
-            </Card>
+          <div className="images">
+            <div className="img-3">
+              <Card>
+                <CardMedia
+                  component="img"
+                  image="./images/services-nail3.jpg"
+                />
+              </Card>
+            </div>
+            <div className="img-4">
+              <Card>
+                <CardMedia
+                  component="img"
+                  image="./images/services-nail4.jpg"
+                />
+              </Card>
+            </div>
           </div>
         </div>
       </div>

@@ -175,7 +175,8 @@ html, body, h1 {
     "fills wax"
     "img1 ."
     "kid img3"
-    "manicure ."
+    "manicure img4"
+    "pedicure ."
   ;
   margin: 50px 100px 50px 100px;
   justify-content: center;
@@ -226,9 +227,15 @@ html, body, h1 {
 
 .img-3 {
   grid-area: img3;
-  margin: 50px;
   align-self: center;
-  width: 300px;
+  width: 250px;
+  margin: 50px 80px 50px 80px;
+}
+
+.img-4 {
+  grid-area: img4;
+  align-self: center;
+  width: 400px;
 }
 
 .img-wax {
@@ -250,5 +257,10 @@ html, body, h1 {
 
 .manicure {
   grid-area: manicure;
+  margin: 20px;
+}
+
+.pedicure {
+  grid-area: pedicure;
   margin: 20px;
 }
