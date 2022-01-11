@@ -40,29 +40,37 @@ const Contact = () => {
         </div>
       </div>
       <div className="information">
-        <h4 className="contact-title">
-          <LocationOnIcon />
-          Address
-        </h4>
+        <div className="contact-title">
+          <h4>
+            <LocationOnIcon />
+            Address
+          </h4>
           <div className="contact-info">39872 Los Alamos Rd Ste A3B Murrieta, CA 92562</div>
-        <h4 className="contact-title">
-          <CallSharpIcon />
-          Phone
-        </h4>
-          <div className="contact-info">(951) 698-7191</div>
+        </div>
+        <div className="contact-title">
+          <h4>
+            <CallSharpIcon />
+            Phone
+          </h4>
+          <div className="contact-info">
+            (951) 698-7191
+          </div>
+        </div>
         <h4 className="contact-title">Business Hours</h4>
-          <TableContainer component={Paper}>
-            <Table size="small" aria-label="simple table">
-              <TableBody>
-                {rows.map(row => (
-                  <TableRow key={row.day}>
-                    <TableCell component="th" scope="row">{row.day}</TableCell>
-                    <TableCell>{row.time}</TableCell>
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </TableContainer>
+          <div className="table">
+            <TableContainer component={Paper}>
+              <Table size="large" aria-label="simple table">
+                <TableBody>
+                  {rows.map(row => (
+                    <TableRow key={row.day}>
+                      <TableCell component="th" scope="row">{row.day}</TableCell>
+                      <TableCell>{row.time}</TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </TableContainer>
+          </div>
       </div>
     </div>
   )

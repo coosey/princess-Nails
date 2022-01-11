@@ -115,17 +115,17 @@ html, body, h1 {
 /**** CONTACT ****/
 
 .contact {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  /* flex-direction: row; */
   justify-content: center;
   text-align: center;
-  margin: 30px;
+  margin: 10px;
 }
 
 .contact-info {
   font-size: 20px;
-  margin: 10px;
-  text-align: left;
+  margin: 20px;
+  text-align: center;
 }
 
 .information, .contact-location {
@@ -153,12 +153,17 @@ html, body, h1 {
 }
 
 .contact-location-title {
-  margin: 10px;
+  margin: 20px;
 }
 
 .contact-title {
-  margin: 10px;
-  text-align: left;
+  margin: 20px;
+  text-align: center;
+}
+
+.table {
+  width: 450px;
+  margin: auto;
 }
 
 /**** Services ****/
