@@ -52,15 +52,6 @@ const Services = () => {
 
   return (
       <div className="services">
-        {/* <h4 className="services-title">Come get professionally polished</h4> */}
-        {/* <div className="fullset-img">
-          <Card>
-            <CardMedia
-              component="img"
-              image="./images/services-nail.jpg"
-            />
-          </Card>
-        </div> */}
         <div className="fullset-fill">
           <h4 className="services-title">Come get professionally polished</h4>
           <div className="services-fullset">
@@ -93,8 +84,17 @@ const Services = () => {
                 </Table>
               </TableContainer>
           </div>
+          <h5 className="services-quote">~ A good manicure says everything ~</h5>
+          <div className="img-1">
+            <Card>
+              <CardMedia
+                component="img"
+                image="./images/services-nail2.jpg"
+              />
+            </Card>
+          </div>
         </div>
-        <div className="img-wax">
+        <div className="img-2">
           <div className="fullset-img">
             <Card>
               <CardMedia

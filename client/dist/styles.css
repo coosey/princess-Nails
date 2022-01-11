@@ -166,12 +166,13 @@ html, body, h1 {
 .services {
   display: grid;
   grid-template-areas:
-    "title img"
+    "title img2"
     "fullset wax"
-    "fills ."
-    ". ."
+    "fills wax"
+    "img1 ."
   ;
-  margin: 55px;
+  margin: 50px 100px 50px 100px;
+  justify-content: center;
 }
 
 .services-title {
@@ -181,24 +182,41 @@ html, body, h1 {
   margin: 20px;
 }
 
+.services-quote {
+  text-align: center;
+  font-family: Didot, serif;
+  margin: 80px 30px 30px 30px;
+}
+
 .fullset-fill {
   margin: 20px;
+  width: 500px;
 }
 
 .services-fullset {
   grid-area: fullset;
+  margin: 20px;
 }
 
 .services-fill {
   grid-area: fills;
+  margin: 20px;
 }
 
-
-.fullset-img {
-  grid-area: img;
-  margin: 30px;
+.img-1 {
+  grid-area: img1;
+  margin: 30px 30px 50px 70px;
+  display: flow-root;
   align-self: center;
-  width: 360px;
+  width: 355px;
+}
+
+.img-2 {
+  grid-area: img2;
+  margin: 30px;
+  /* display: flow-root; */
+  align-self: center;
+  width: 355px;
 }
 
 .img-wax {
