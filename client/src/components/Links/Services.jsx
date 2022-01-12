@@ -198,23 +198,21 @@ const Services = () => {
                 </Table>
               </TableContainer>
           </div>
-          <div className="images">
-            <div className="img-3">
-              <Card>
-                <CardMedia
-                  component="img"
-                  image="./images/services-nail3.jpg"
-                />
-              </Card>
-            </div>
-            <div className="img-4">
-              <Card>
-                <CardMedia
-                  component="img"
-                  image="./images/services-nail4.jpg"
-                />
-              </Card>
-            </div>
+          <div className="img-3">
+            <Card>
+              <CardMedia
+                component="img"
+                image="./images/services-nail3.jpg"
+              />
+            </Card>
+          </div>
+          <div className="img-4">
+            <Card>
+              <CardMedia
+                component="img"
+                image="./images/services-nail4.jpg"
+              />
+            </Card>
           </div>
         </div>
       </div>

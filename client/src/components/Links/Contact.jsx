@@ -44,14 +44,14 @@ const Contact = () => {
         <div className="contact-title">
           <h4>
             <LocationOnIcon />
-            Address
+            &nbsp; Address
           </h4>
           <div className="contact-info">39872 Los Alamos Rd Ste A3B Murrieta, CA 92562</div>
         </div>
         <div className="contact-title">
           <h4>
             <CallSharpIcon />
-            Phone
+            &nbsp; Phone
           </h4>
           <div className="contact-info">
             (951) 698-7191

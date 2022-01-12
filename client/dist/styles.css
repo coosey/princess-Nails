@@ -56,11 +56,13 @@ html, body, h1 {
 .about-Header {
   text-align: center;
   margin: 5px;
+  font-size: 30px;
 }
 
 .about-Body {
   margin: 15px;
-  font-size: 25px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
 }
 
 .social-container {
@@ -119,7 +121,7 @@ html, body, h1 {
   display: grid;
   /* flex-direction: row; */
   justify-content: center;
-  /* font-family: Didot, serif; */
+  font-family: Arial, sans-serif;
   text-align: center;
   margin: 10px;
 }
@@ -163,6 +165,7 @@ html, body, h1 {
 .contact-social {
   font-size: 15px;
   margin: 80px auto 5px auto;
+  font-family: Didot, serif;
 }
 
 /**** Services ****/
@@ -215,14 +218,14 @@ html, body, h1 {
   margin: 30px 30px 50px 70px;
   display: flow-root;
   align-self: center;
-  width: 355px;
+  width: 360px;
 }
 
 .img-2 {
   grid-area: img2;
   margin: 30px;
   align-self: flex-start;
-  width: 390px;
+  width: 395px;
 }
 
 .img-3 {
