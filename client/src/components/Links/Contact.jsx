@@ -57,7 +57,7 @@ const Contact = () => {
             (951) 698-7191
           </div>
         </div>
-        <h4 className="contact-title">Business Hours</h4>
+        <h4 className="contact-title-business">Business Hours</h4>
           <div className="table">
             <TableContainer component={Paper}>
               <Table size="large" aria-label="simple table">

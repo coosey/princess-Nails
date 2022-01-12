@@ -152,7 +152,7 @@ html, body, h1 {
   height: 100% !important;
 }
 
-.contact-title {
+.contact-title, .contact-title-business {
   margin: 20px;
   text-align: center;
 }
@@ -180,6 +180,7 @@ html, body, h1 {
     "kid img3"
     "manicure img4"
     "pedicure ."
+    "social social"
   ;
   margin: 50px 100px 50px 100px;
   justify-content: center;
@@ -203,67 +204,45 @@ html, body, h1 {
   width: 500px;
 }
 
-.services-fullset {
-  grid-area: fullset;
-  margin: 20px;
-}
-
-.services-fill {
-  grid-area: fills;
+.services-fullset, .services-fill {
   margin: 20px;
 }
 
 .img-1 {
   grid-area: img1;
-  margin: 30px 30px 50px 70px;
   display: flow-root;
-  align-self: center;
+  margin: 30px 30px 50px 70px;
   width: 360px;
+  align-self: center;
 }
 
 .img-2 {
   grid-area: img2;
   margin: 30px;
-  align-self: flex-start;
   width: 395px;
+  align-self: flex-start;
 }
 
 .img-3 {
   grid-area: img3;
-  align-self: center;
-  width: 250px;
   margin: 50px 80px 50px 80px;
+  width: 250px;
+  align-self: center;
 }
 
 .img-4 {
   grid-area: img4;
-  align-self: center;
   width: 400px;
+  align-self: center;
 }
 
 .img-wax {
   display: flex;
   margin: 20px;
-  flex-direction: column;
   width: 600px;
+  flex-direction: column;
 }
 
-.wax {
-  grid-area: wax;
-  margin: 20px;
-}
-
-.kids {
-  grid-area: kid;
-  margin: 20px;
-}
-
-.manicure {
-  grid-area: manicure;
-  margin: 20px;
-}
-
-.pedicure {
-  grid-area: pedicure;
+.wax, .kids, .manicure, .pedicure {
   margin: 20px;
 }
