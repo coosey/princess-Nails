@@ -10,9 +10,10 @@ const HomeGallery = () => {
   const style = { marginBottom: 0, fontSize: "1.7em", letterSpacing: "1px", textAlign: "center" }
 
   return (
-    <div className="home-gallery-container">
+    <div>
+      <h4 className="home-header">What We Specialize In</h4>
       <div className="home-gallery">
-        <div className="home-photo">
+        <div className="home-photo-1">
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
@@ -24,13 +25,11 @@ const HomeGallery = () => {
               <Typography gutterBottom variant="h5" component="div" sx={style}>
                 Manicures
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography variant="body2" color="text.secondary" >
                 A manicure is a beauty treatment which uses special tools, creams, waxes and/or massage techniques to leave your nails & hands healthy and looking good
               </Typography>
             </CardContent>
           </Card>
-        </div>
-        <div className="home-photo">
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
@@ -48,7 +47,7 @@ const HomeGallery = () => {
             </CardContent>
           </Card>
         </div>
-        <div className="home-photo">
+        <div className="home-photo-2">
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
@@ -65,8 +64,6 @@ const HomeGallery = () => {
               </Typography>
             </CardContent>
           </Card>
-        </div>
-        <div className="home-photo">
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
