@@ -36,7 +36,7 @@ const HomeGallery = () => {
               component="img"
               height="220"
               image="./images/home/home-pedicure.jpg"
-              alt="manicure"
+              alt="pedicure"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" sx={style}>
@@ -53,15 +53,15 @@ const HomeGallery = () => {
             <CardMedia
               component="img"
               height="220"
-              image="./images/home/home-pedicure.jpg"
-              alt="manicure"
+              image="./images/home/home-nailart.jpg"
+              alt="nail-art"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" sx={style}>
                 Nail Art
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                A pedicure is a therapeutic treatment for your feet that removes dead skin, softens hard skin and shapes and treats your toenails. Think of it as a manicure for the feet!
+                Nail art is a creative way to paint, decorate, enhance, and embellish nails. It is a type of artwork that can be done on fingernails and toenails, usually after manicures or pedicures.
               </Typography>
             </CardContent>
           </Card>
@@ -71,15 +71,15 @@ const HomeGallery = () => {
             <CardMedia
               component="img"
               height="220"
-              image="./images/home/home-pedicure.jpg"
-              alt="manicure"
+              image="./images/home/home-wax.jpg"
+              alt="wax"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" sx={style}>
                 Wax
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                A pedicure is a therapeutic treatment for your feet that removes dead skin, softens hard skin and shapes and treats your toenails. Think of it as a manicure for the feet!
+                Get smooth, sleek and sexy. Waxing isn't just about hair removal. It's a skin care treatment as well. Our fast and effective waxing services will leave your skin hair-free and fabulously smooth.
               </Typography>
             </CardContent>
           </Card>
