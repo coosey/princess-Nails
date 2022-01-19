@@ -6,20 +6,22 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
 const HomeGallery = () => {
+
+  const style = { marginBottom: 0, fontSize: "1.7em", letterSpacing: "1px", textAlign: "center" }
+
   return (
-    <div>
-      <h5>What we specialize in</h5>
+    <div className="home-gallery-container">
       <div className="home-gallery">
-        <div>
+        <div className="home-photo">
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
-              height="150"
+              height="220"
               image="./images/home/home-manicure.jpg"
               alt="manicure"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography gutterBottom variant="h5" component="div" sx={style}>
                 Manicures
               </Typography>
               <Typography variant="body2" color="text.secondary">
@@ -28,9 +30,60 @@ const HomeGallery = () => {
             </CardContent>
           </Card>
         </div>
-        <div>Pedicure</div>
-        <div>Nail Art</div>
-        <div>Wax</div>
+        <div className="home-photo">
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              component="img"
+              height="220"
+              image="./images/home/home-pedicure.jpg"
+              alt="manicure"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div" sx={style}>
+                Pedicures
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                A pedicure is a therapeutic treatment for your feet that removes dead skin, softens hard skin and shapes and treats your toenails. Think of it as a manicure for the feet!
+              </Typography>
+            </CardContent>
+          </Card>
+        </div>
+        <div className="home-photo">
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              component="img"
+              height="220"
+              image="./images/home/home-pedicure.jpg"
+              alt="manicure"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div" sx={style}>
+                Nail Art
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                A pedicure is a therapeutic treatment for your feet that removes dead skin, softens hard skin and shapes and treats your toenails. Think of it as a manicure for the feet!
+              </Typography>
+            </CardContent>
+          </Card>
+        </div>
+        <div className="home-photo">
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              component="img"
+              height="220"
+              image="./images/home/home-pedicure.jpg"
+              alt="manicure"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div" sx={style}>
+                Wax
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                A pedicure is a therapeutic treatment for your feet that removes dead skin, softens hard skin and shapes and treats your toenails. Think of it as a manicure for the feet!
+              </Typography>
+            </CardContent>
+          </Card>
+        </div>
       </div>
     </div>
   )

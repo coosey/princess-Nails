@@ -93,6 +93,24 @@ html, body, h1 {
   color: black;
 }
 
+/**** HOME-GALLERY ****/
+
+.home-gallery-container {
+  display: flex;
+}
+
+.home-gallery {
+  max-width: 800px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.home-photo {
+  margin: 10px;
+}
+
 /**** SLICK ****/
 
 .slick-img {
