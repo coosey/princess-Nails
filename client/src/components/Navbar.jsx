@@ -7,11 +7,11 @@ const NavBar = () => {
   return (
     <nav className="navBar">
       <div className="nav-container">
-        <NavLink to="/services" className="nav-link">
-          Services
-        </NavLink>
         <NavLink to="/" className="title-link">
           Princess Nails
+        </NavLink>
+        <NavLink to="/services" className="nav-link">
+          Services
         </NavLink>
         <NavLink to="/contact" className="nav-link">
           Contact
