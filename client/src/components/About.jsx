@@ -10,11 +10,11 @@ const About = () => {
           <Paper variant="outlined">
           <div className="about-Body">
             <p>
-              At Princess Nails, our professional technicians will provide you a rewarding beauty experience to truly pamper yourself. We're about nail care that is really centered around your wellbeing and prosperity, and we take pride in providing you quality service. Adhering to the state regulations and industry "best practices", we provide you the best safety measures to enhance the quality and safety during your stay.
+              At Princess Nails, our professional technicians will provide you a rewarding beauty experience to truly pamper yourself. We're about nail care that is really centered around your wellbeing and prosperity, and we take pride in providing you quality service.
             </p>
               <br></br>
             <p>
-              Specializing in acrylic nails, manicures, pedicures, and waxing, Princess Nails offer the best quality products and decent pricing! Come check out hundreds of beautiful gel colors and stylish nail models, and visit us for the best facial, manicure, or pedicure experience in town!
+              Specializing in manicures, pedicures, acrylic nails, and waxing, Princess Nails offer the best quality products and decent pricing! Come check out hundreds of beautiful gel colors and stylish nail models, and visit us for the best facial, manicure, or pedicure experience in town!
             </p>
               <br></br>
             <p>

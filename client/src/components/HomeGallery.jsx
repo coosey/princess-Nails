@@ -18,7 +18,7 @@ const HomeGallery = () => {
             <CardMedia
               component="img"
               height="220"
-              image="./images/home/home-manicure.jpg"
+              image="./images/home/home-manicure2.jpg"
               alt="manicure"
             />
             <CardContent>
