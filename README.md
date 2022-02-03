@@ -1,2 +1,2 @@
 # princess-Nails
-Landing page for nail shop business, Princess Nails (In progress)
+Website for nail shop business - Princess Nails (Currently in progress)
