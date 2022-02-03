@@ -5,7 +5,9 @@ import { faInstagram, faYelp } from "@fortawesome/free-brands-svg-icons";
 const Socials = () => {
   return (
     <div className="social-container">
-      <h3 className="social-header">Follow our Socials!</h3>
+      <h2 className="social-header">
+        Follow our Socials!
+      </h2>
       <div className="social-body">
         <a href="https://www.instagram.com/princessnails_murrieta/" className="social-IG">
           <FontAwesomeIcon icon={faInstagram} size="3x" />

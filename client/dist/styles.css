@@ -66,6 +66,7 @@ html, body, h1 {
 .social-container {
   justify-content: center;
   align-items: center;
+  margin: 5ch;
 }
 
 .social-header {
@@ -179,13 +180,7 @@ html, body, h1 {
   margin: auto;
 }
 
-.contact-social {
-  font-size: 15px;
-  margin: 80px auto 5px auto;
-  font-family: Didot, serif;
-}
-
-/**** Services ****/
+/**** SERVICES ****/
 
 .services {
   display: grid;
@@ -262,4 +257,26 @@ html, body, h1 {
 
 .wax, .kids, .manicure, .pedicure {
   margin: 20px;
+}
+
+/**** FOOTER ****/
+
+.footer {
+  display: flex;
+  justify-content: left;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: antiquewhite;
+}
+
+.footer-header {
+  font-size: 30px;
+}
+
+.footer-body {
+  font-size: 20px;
+}
+
+.footer-info {
+  margin: 5ch;
 }

@@ -73,9 +73,6 @@ const Contact = () => {
             </TableContainer>
           </div>
       </div>
-      <div className="contact-social">
-        <Socials />
-      </div>
     </div>
   )
 }

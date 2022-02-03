@@ -1,7 +1,8 @@
 import React from "react";
 import About from "./About.jsx";
 import Carousel from "./Carousel.jsx";
-import Socials from "./Links/Socials.jsx";
+import Footer from "./Footer.jsx";
+// import Socials from "./Links/Socials.jsx";
 import HomeGallery from "./HomeGallery.jsx";
 
 const Home = () => {
@@ -10,7 +11,8 @@ const Home = () => {
       <Carousel />
       <HomeGallery />
       <About />
-      <Socials />
+      <Footer />
+      {/* <Socials /> */}
     </div>
   )
 }
