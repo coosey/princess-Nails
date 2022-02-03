@@ -73,14 +73,14 @@ html, body, h1 {
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-top: 8px;
+  margin-top: 15px;
 }
 
 .social-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px;
+  margin: 10px;
 }
 
 .social-IG, .social-Yelp {
@@ -279,6 +279,7 @@ html, body, h1 {
 
 .footer-body {
   font-size: 20px;
+  margin: 10px;
 }
 
 .footer-info {
