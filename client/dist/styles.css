@@ -27,6 +27,7 @@ body {
 .title-link {
   margin-top: 20px;
   font-size: 65px;
+  font-weight: 600;
   /* font-family: Didot, serif; */
 }
 
@@ -79,6 +80,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 15px;
+  font-weight: 300;
 }
 
 .social-body {
@@ -91,7 +93,8 @@ body {
 .social-IG, .social-Yelp {
   justify-content: center;
   align-items: center;
-  width: 45px;
+  font-size: 15px;
+  width: 55px;
   margin: 10px;
   color: black;
 }

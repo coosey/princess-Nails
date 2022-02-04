@@ -1,5 +1,6 @@
 import React from "react";
 import Socials from "./Socials.jsx";
+import Footer from "../Footer.jsx";
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -87,6 +88,7 @@ const Services = () => {
   ]
 
   return (
+    <div>
       <div className="services">
         <div className="fullset-fill">
           <h4 className="services-title">Come get professionally polished</h4>
@@ -217,6 +219,8 @@ const Services = () => {
           </div>
         </div>
       </div>
+      <Footer />
+    </div>
   )
 }
 
