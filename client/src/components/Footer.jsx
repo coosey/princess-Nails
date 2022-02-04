@@ -1,5 +1,6 @@
 import React from "react";
 import Socials from "./Links/Socials.jsx";
+import ScrollArrow from "./ScrollArrow.jsx";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallSharpIcon from '@mui/icons-material/CallSharp';
 
@@ -48,6 +49,7 @@ const Footer = () => {
           </tbody>
         </table>
         <Socials />
+        <ScrollArrow />
       </div>
       <div className="footer-bottom">
         Copyright@2022 Princess Nails. All Rights Reserved
