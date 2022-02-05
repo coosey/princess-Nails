@@ -5,9 +5,9 @@ import Paper from '@mui/material/Paper';
 const About = () => {
   return (
       <div className="about-container">
-        <h5 className="about-Header">About Us</h5>
         <Box>
           <Paper variant="outlined">
+          <h5 className="about-Header">About Us</h5>
           <div className="about-Body">
             <p>
               At Princess Nails, our professional technicians will provide you a rewarding beauty experience to truly pamper yourself. We're about nail care that is really centered around your wellbeing and prosperity, and we take pride in providing you quality service.
