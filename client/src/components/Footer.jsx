@@ -32,7 +32,7 @@ const Footer = () => {
         <table className="footer-info">
           <thead className="footer-header">
             <tr>
-              <th>Business hours</th>
+              <th>Hours</th>
             </tr>
           </thead>
           <tbody className="footer-body">

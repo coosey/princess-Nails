@@ -24,7 +24,7 @@ const ScrollArrow = ({showBelow}) => {
   const [show, setShow] = useState(showBelow ? false : true)
 
   const handleScroll = () => {
-    if (window.pageYOffset > 700) {
+    if (window.pageYOffset > 200) {
       setShow(true)
     } else {
       setShow(false)
