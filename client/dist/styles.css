@@ -88,6 +88,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin: 15px;
 }
 
@@ -97,7 +98,17 @@ body {
   font-size: 15px;
   width: 55px;
   margin: 10px;
-  color: black;
+  /* color: black; */
+}
+
+.social-IG {
+  color: white;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
+.social-Yelp {
+  color: red;
 }
 
 /**** HOME-GALLERY ****/

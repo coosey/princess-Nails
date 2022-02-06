@@ -4,7 +4,6 @@
   "description": "Landing page for nail shop business Princess Nails",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode development -w",
     "start": "nodemon server/index.js"
   },
