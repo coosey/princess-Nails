@@ -9,10 +9,10 @@ const Socials = () => {
         Follow our Socials!
       </h2>
       <div className="social-body">
-        <a href="https://www.instagram.com/princessnails_murrieta/" className="social-IG">
+        <a href="https://www.instagram.com/princessnails_murrieta/" className="social-IG" aria-label="Instagram">
           <FontAwesomeIcon icon={faInstagram} size="3x" />
         </a>
-        <a href="https://www.yelp.com/biz/princess-nails-murrieta-2" className="social-Yelp">
+        <a href="https://www.yelp.com/biz/princess-nails-murrieta-2" className="social-Yelp" aria-label="Yelp">
           <FontAwesomeIcon icon={faYelp} size="3x" />
         </a>
       </div>

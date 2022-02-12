@@ -18,7 +18,6 @@ const HomeGallery = () => {
             <CardMedia
               component="img"
               height="220"
-              class="lazyload"
               image="./images/home/home-manicure2.webp"
               alt="manicure"
             />
@@ -35,7 +34,6 @@ const HomeGallery = () => {
             <CardMedia
               component="img"
               height="220"
-              class="lazyload"
               image="./images/home/home-pedicure.webp"
               alt="pedicure"
             />
@@ -54,7 +52,6 @@ const HomeGallery = () => {
             <CardMedia
               component="img"
               height="220"
-              class="lazyload"
               image="./images/home/home-nailart.webp"
               alt="nail-art"
             />
@@ -71,7 +68,6 @@ const HomeGallery = () => {
             <CardMedia
               component="img"
               height="220"
-              class="lazyload"
               image="./images/home/home-wax.webp"
               alt="wax"
             />

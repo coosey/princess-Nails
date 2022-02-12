@@ -48,6 +48,7 @@ const ScrollArrow = ({showBelow}) => {
       {
         show &&
         <IconButton
+          aria-label="Back to Top"
           onClick={handleClick}
           className={classes.toTop}
         >

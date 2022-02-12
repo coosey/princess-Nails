@@ -127,6 +127,8 @@ const Services = () => {
             <Card>
               <CardMedia
                 component="img"
+                height="400"
+                width="300"
                 image="./images/services/services-nail2.webp"
               />
             </Card>
@@ -182,6 +184,8 @@ const Services = () => {
             <Card>
               <CardMedia
                 component="img"
+                height="475"
+                width="250"
                 image="./images/services/services-nail.webp"
               />
             </Card>
@@ -205,6 +209,8 @@ const Services = () => {
             <Card>
               <CardMedia
                 component="img"
+                height="400"
+                width="250"
                 image="./images/services/services-nail3.webp"
               />
             </Card>
@@ -213,6 +219,8 @@ const Services = () => {
             <Card>
               <CardMedia
                 component="img"
+                height="300"
+                width="300"
                 image="./images/services/services-nail4.webp"
               />
             </Card>
