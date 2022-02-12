@@ -1,7 +1,7 @@
 import React from "react";
 import About from "./About.jsx";
 import Carousel from "./Carousel.jsx";
-import Footer from "./Footer.jsx";
+import Footer from "../Footer.jsx";
 import HomeGallery from "./HomeGallery.jsx";
 
 const Home = () => {

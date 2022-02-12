@@ -127,7 +127,7 @@ const Services = () => {
             <Card>
               <CardMedia
                 component="img"
-                image="./images/services/services-nail2.jpg"
+                image="./images/services/services-nail2.webp"
               />
             </Card>
           </div>
@@ -182,7 +182,7 @@ const Services = () => {
             <Card>
               <CardMedia
                 component="img"
-                image="./images/services/services-nail.jpg"
+                image="./images/services/services-nail.webp"
               />
             </Card>
           </div>
@@ -205,7 +205,7 @@ const Services = () => {
             <Card>
               <CardMedia
                 component="img"
-                image="./images/services/services-nail3.jpg"
+                image="./images/services/services-nail3.webp"
               />
             </Card>
           </div>
@@ -213,7 +213,7 @@ const Services = () => {
             <Card>
               <CardMedia
                 component="img"
-                image="./images/services/services-nail4.jpg"
+                image="./images/services/services-nail4.webp"
               />
             </Card>
           </div>
