@@ -23,8 +23,10 @@ const Footer = () => {
             </tr>
             <tr>
               <td>
-                <CallSharpIcon />
-                &nbsp; (951) 698-7191
+                <CallSharpIcon /> &nbsp;
+                <a className="contact-phone" href="tel:9516987191">
+                  (951) 698-7191
+                </a>
               </td>
             </tr>
           </tbody>
