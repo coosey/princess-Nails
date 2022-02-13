@@ -10,5 +10,9 @@ Website for nail shop business - Princess Nails (Currently in progress)
 - [Node.js](https://nodejs.org/en/)
 
 ## Acknowledgements
-- [MUI Icons](https://mui.com/components/material-icons/)
+- [Babel](https://babeljs.io/)
+- [Webpack](https://webpack.js.org/)
+- [Normalize.css](https://necolas.github.io/normalize.css/)
+- [Css-loader](https://www.npmjs.com/package/css-loader)
+- [MUI-icons](https://mui.com/components/material-icons/)
 - [Fort Awesome](https://fortawesome.com/)
