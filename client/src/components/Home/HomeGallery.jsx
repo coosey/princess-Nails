@@ -14,7 +14,7 @@ const HomeGallery = () => {
       <h4 className="home-header">What We Specialize In</h4>
       <div className="home-gallery">
         <div className="home-photo-1">
-          <Card sx={{ maxWidth: 345 }}>
+          <Card className="home-1" sx={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
               height="220"
@@ -30,7 +30,7 @@ const HomeGallery = () => {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card className="home-2" sx={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
               height="220"
@@ -48,7 +48,7 @@ const HomeGallery = () => {
           </Card>
         </div>
         <div className="home-photo-2">
-          <Card sx={{ maxWidth: 345 }}>
+          <Card className="home-3" sx={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
               height="220"
@@ -64,7 +64,7 @@ const HomeGallery = () => {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card className="home-4" sx={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
               height="220"
