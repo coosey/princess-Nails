@@ -2,4 +2,4 @@
 Website for nail shop business - Princess Nails (Currently in progress)
 
 ## Built With
--[React](https://reactjs.org/)
+- [React](https://reactjs.org/)
