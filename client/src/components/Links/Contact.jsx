@@ -16,13 +16,13 @@ const Contact = () => {
   }
 
   const rows = [
-    createData('Monday', "9:30 A.M - 7:30 P.M"),
-    createData('Tuesday', "9:30 A.M - 7:30 P.M"),
-    createData('Wednesday', "9:30 A.M - 7:30 P.M"),
-    createData('Thursday', "9:30 A.M - 7:30 P.M"),
-    createData('Friday', "9:30 A.M - 7:30 P.M"),
-    createData('Saturday', "9:30 A.M - 7:30 P.M"),
-    createData('Sunday', "Closed"),
+    createData('MONDAY', "9:30 A.M - 7:30 P.M"),
+    createData('TUESDAY', "9:30 A.M - 7:30 P.M"),
+    createData('WEDNESDAY', "9:30 A.M - 7:30 P.M"),
+    createData('THURSDAY', "9:30 A.M - 7:30 P.M"),
+    createData('FRIDAY', "9:30 A.M - 7:30 P.M"),
+    createData('SATURDAY', "9:30 A.M - 7:30 P.M"),
+    createData('SUNDAY', "CLOSED"),
   ]
 
   return (
@@ -43,27 +43,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="information">
-          <div className="contact-title">
-            <h4>
-              <LocationOnIcon />
-              &nbsp; Address
-            </h4>
-            <div className="contact-info">
-              39872 Los Alamos Rd Ste A3B Murrieta, CA 92562
-            </div>
-          </div>
-          <div className="contact-title">
-            <h4>
-              <CallSharpIcon />
-              &nbsp; Phone
-            </h4>
-            <div className="contact-info">
-              <a className="contact-phone" href="tel:9516987191">
-                (951) 698-7191
-              </a>
-            </div>
-          </div>
-          <h4 className="contact-title-business">Hours</h4>
+           <h4 className="contact-title-business">Business Hours</h4>
             <div className="table">
               <TableContainer
                 component={Paper}
@@ -90,6 +70,53 @@ const Contact = () => {
                 </Table>
               </TableContainer>
             </div>
+          <div className="contact-title">
+            <h4>
+              <LocationOnIcon />
+              &nbsp; Address
+            </h4>
+            <div className="contact-info">
+              39872 Los Alamos Rd Ste A3B Murrieta, CA 92562
+            </div>
+          </div>
+          <div className="contact-title">
+            <h4>
+              <CallSharpIcon />
+              &nbsp; Phone
+            </h4>
+            <div className="contact-info">
+              <a className="contact-phone" href="tel:9516987191">
+                (951) 698-7191
+              </a>
+            </div>
+          </div>
+          {/* <h4 className="contact-title-business">Hours</h4>
+            <div className="table">
+              <TableContainer
+                component={Paper}
+              >
+                <Table
+                  size="large"
+                  aria-label="simple table"
+                >
+                  <TableBody>
+                    {rows.map(row => (
+                      <TableRow key={row.day}>
+                        <TableCell
+                          component="th"
+                          scope="row"
+                        >
+                          {row.day}
+                        </TableCell>
+                        <TableCell>
+                          {row.time}
+                        </TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              </TableContainer>
+            </div> */}
         </div>
       </div>
     </div>
