@@ -28,13 +28,13 @@ body {
   margin-top: 30px;
   font-size: 70px;
   font-weight: 600;
-  /* font-family: Didot, serif; */
+  font-family: Didot, serif;
 }
 
 .nav-link {
   margin-top: 30pt;
   font-size: 35px;
-  /* font-family: Didot, serif; */
+  font-family: Playfair Display, serif;
   transition: all .2s ease-in-out;
 }
 
@@ -66,6 +66,7 @@ body {
   margin-top: 15px;
   margin-left: 30px;
   font-size: 40px;
+  font-family: Playfair Display, serif;
 }
 
 .about-Body {
@@ -311,11 +312,14 @@ body {
 }
 
 /**** FOOTER ****/
+footer {
+  height: 360px;
+  background-color: antiquewhite;
+}
 
 .footer {
   margin-top: 1rem;
   padding: 2rem;
-  background-color: antiquewhite;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -334,13 +338,12 @@ body {
 
 .footer-info {
   margin: 5ch;
-  font-family: Helvetica, sans-serif;
+  font-family: Playfair Display, serif;
   display: flex;
   flex-direction: column;
 }
 
 .footer-bottom {
-  background-color: antiquewhite;
   text-align: center;
 }
 

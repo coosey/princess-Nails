@@ -6,7 +6,7 @@ const Socials = () => {
   return (
     <div className="social-container">
       <h2 className="social-header">
-        Follow our Socials!
+        Follow Our Socials!
       </h2>
       <div className="social-body">
         <a href="https://www.instagram.com/princessnails_murrieta/" className="social-IG" aria-label="Instagram">

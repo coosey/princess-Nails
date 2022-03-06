@@ -6,7 +6,7 @@ import CallSharpIcon from '@mui/icons-material/CallSharp';
 
 const Footer = () => {
   return (
-    <div>
+    <footer>
       <div className="footer">
         <table className="footer-info">
           <thead className="footer-header">
@@ -54,9 +54,9 @@ const Footer = () => {
         <ScrollArrow />
       </div>
       <div className="footer-bottom">
-        Copyright@2022 Princess Nails. All Rights Reserved
+        &copy; Copyright 2022 Princess Nails. All Rights Reserved
       </div>
-    </div>
+    </footer>
   )
 }
 
