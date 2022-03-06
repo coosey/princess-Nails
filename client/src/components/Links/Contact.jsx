@@ -43,33 +43,6 @@ const Contact = () => {
           </div>
         </div>
         <div className="information">
-           <h4 className="contact-title-business">Business Hours</h4>
-            <div className="table">
-              <TableContainer
-                component={Paper}
-              >
-                <Table
-                  size="large"
-                  aria-label="simple table"
-                >
-                  <TableBody>
-                    {rows.map(row => (
-                      <TableRow key={row.day}>
-                        <TableCell
-                          component="th"
-                          scope="row"
-                        >
-                          {row.day}
-                        </TableCell>
-                        <TableCell>
-                          {row.time}
-                        </TableCell>
-                      </TableRow>
-                    ))}
-                  </TableBody>
-                </Table>
-              </TableContainer>
-            </div>
           <div className="contact-title">
             <h4>
               <LocationOnIcon />
@@ -90,7 +63,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          {/* <h4 className="contact-title-business">Hours</h4>
+          <h4 className="contact-title-business"> Business Hours</h4>
             <div className="table">
               <TableContainer
                 component={Paper}
@@ -116,7 +89,7 @@ const Contact = () => {
                   </TableBody>
                 </Table>
               </TableContainer>
-            </div> */}
+            </div>
         </div>
       </div>
     </div>
