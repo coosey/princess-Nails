@@ -51,29 +51,31 @@ body {
   font-size: 30px;
 }
 
-/**** HOME ****/
+/**** ABOUT ****/
 
 .about-container {
   margin: 30px 140px 30px 140px;
-  font-size: 30px;
+  font-size: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: Calibri;
+  /* font-family: Playfair Display, serif; */
 }
 
 .about-Header {
-  text-align: left;
+  text-align: center;
   margin-top: 15px;
   margin-left: 30px;
-  font-size: 40px;
-  font-family: Playfair Display, serif;
+  font-size: 45px;
 }
 
 .about-Body {
   margin: 30px;
-  font-size: 20px;
-  font-family: Arial, sans-serif;
+  font-size: 22px;
 }
+
+/**** SOCIAL ****/
 
 .social-container {
   justify-content: center;
@@ -152,10 +154,10 @@ body {
   transform: scale(1.3);
 }
 
-/**** SLICK ****/
+/**** SLICK CAROUSEL ****/
 
 .slick-img {
-  margin: 25px;
+  margin: 10px;
 }
 
 .slick-slide img {
@@ -176,7 +178,7 @@ body {
   margin: 100px 50px 50px 50px;
 }
 
-/**** CONTACT ****/
+/**** CONTACT PAGE ****/
 
 .contact {
   display: grid;
@@ -232,7 +234,7 @@ body {
   margin: auto;
 }
 
-/**** SERVICES ****/
+/**** SERVICES PAGE ****/
 
 .services {
   display: grid;
@@ -311,7 +313,7 @@ body {
   margin: 20px;
 }
 
-/**** FOOTER ****/
+/**** FOOTER SECTION ****/
 footer {
   height: 360px;
   background-color: antiquewhite;
@@ -327,7 +329,7 @@ footer {
 
 .footer-header {
   text-align: left;
-  font-size: 40px;
+  font-size: 50px;
   margin: 10px;
 }
 
